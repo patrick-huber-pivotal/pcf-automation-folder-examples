@@ -16,3 +16,6 @@ products:
 - slug: p-healthwatch
   version: 1.6.1
   glob: '*.pivotal'
+iaas: vsphere
+auth: basic
+env: uaa
