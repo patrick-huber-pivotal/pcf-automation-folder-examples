@@ -1,0 +1,18 @@
+regions:
+- name: eus
+  environments:
+  - name: dev
+  - name: qa
+  - name: prod
+- name: scus
+  environments:
+  - name: dev
+  - name: qa
+  - name: prod
+products:
+- slug: elastic-runtime
+  version: 2.6.4 
+  glob: cf*.pivotal
+- slug: p-healthwatch
+  version: 1.6.1
+  glob: '*.pivotal'
